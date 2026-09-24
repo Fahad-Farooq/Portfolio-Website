@@ -46,12 +46,10 @@ src/
 │   ├── projects.ts     <-- All projects, tags, links, and featured status
 │   ├── skills.ts       <-- Skills categorized into frontend, backend, databases, AI
 │   ├── experience.ts   <-- Internships, roles, and work experience timeline
-│   ├── education.ts    <-- Degree, university, and academic details
-│   ├── learning.ts     <-- "Currently Exploring" AI & Machine Learning topics
-│   └── navigation.ts  <-- Top navigation links
+│   └── navigation.ts   <-- Top navigation links
 ├── components/
 │   ├── layout/         <-- Navbar, Footer, ThemeToggle
-│   ├── sections/       <-- Hero, About, Skills, Projects, Experience, Education, Learning, Contact
+│   ├── sections/       <-- Hero, About, Skills, Projects, Experience, Contact
 │   └── ui/             <-- SectionHeading, Badge, Icons
 └── types/
     └── index.ts        <-- Clean TypeScript interfaces
@@ -147,27 +145,20 @@ Open `src/data/skills.ts`. Each category contains a `skills` array. Just add or 
 
 ---
 
-### 5. Updating Experience & Education
+### 5. Updating Experience
 
-- **Experience**: Edit `src/data/experience.ts`. Replace placeholder values (`organization`, `role`, `duration`, `description`) with your actual internships or roles.
-- **Education**: Edit `src/data/education.ts`. Update your degree name, university, and expected graduation date.
-
----
-
-### 6. Updating "Currently Exploring" (AI Direction)
-
-Open `src/data/learning.ts` to add or edit topics you are actively studying (e.g. LLMs, RAG, PyTorch, LangChain, etc.).
+Open `src/data/experience.ts`. Replace placeholder values (`organization`, `role`, `duration`, `description`) with your actual internships or roles.
 
 ---
 
-### 7. Adding Your Resume & Images
+### 6. Adding Your Resume & Images
 
 - **Resume**: Save your resume as `resume.pdf` in the `public/` directory (replacing the placeholder). The Navbar and Hero buttons will immediately open it.
 - **Project Images**: Save screenshots in `public/images/projects/` and reference them as `/images/projects/your-image.png`.
 
 ---
 
-### 8. Customizing Colors & Theme
+### 7. Customizing Colors & Theme
 
 Theme variables are cleanly organized in `src/app/globals.css`:
 

@@ -35,8 +35,7 @@ export function About() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeading
           eyebrow="// 01. About Me"
-          title="Background & Direction"
-          subtitle="A snapshot of where I started, what I build today, and where I am headed next."
+          title="Building Practical Web Solutions That Work."
         />
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-start">
@@ -51,7 +50,7 @@ export function About() {
           </ScrollReveal>
 
           {/* Quick Pillars Grid with Staggered ScrollReveal and subtle hover */}
-          <div className="lg:col-span-5 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 gap-4">
+          {/*<div className="lg:col-span-5 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 gap-4">
             {highlights.map((item, idx) => {
               const Icon = item.icon;
               return (
@@ -74,7 +73,7 @@ export function About() {
                 </ScrollReveal>
               );
             })}
-          </div>
+          </div>*/}
         </div>
       </div>
     </section>

@@ -50,22 +50,6 @@ export interface ExperienceItem {
   link?: string;
 }
 
-export interface EducationItem {
-  id: string;
-  institution: string;
-  degree: string;
-  field: string;
-  duration: string;
-  location?: string;
-  details?: string[];
-}
-
-export interface LearningTopic {
-  title: string;
-  category: string;
-  notes?: string;
-}
-
 export interface NavItem {
   label: string;
   href: string;

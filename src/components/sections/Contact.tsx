@@ -33,7 +33,7 @@ export function Contact() {
     >
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeading
-          eyebrow="// 07. Get In Touch"
+          eyebrow="// 05. Get In Touch"
           title="Let's Connect"
           subtitle="Whether you have an internship opportunity, a project to collaborate on, or just want to discuss software and AI, I'd love to hear from you."
         />

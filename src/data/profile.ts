@@ -2,22 +2,21 @@ import { Profile } from "@/types";
 
 export const profileData: Profile = {
   name: "Fahad Farooq",
-  title:
-    "Computer Science Undergraduate | Full Stack Web Developer | Aspiring AI Engineer",
+  title: "MERN Stack & WordPress Developer",
   tagline:
-    "Building robust, full-stack web applications and exploring the intersection of modern software engineering and artificial intelligence.",
+    "I build responsive, production-ready websites and web applications using React, Node.js, WordPress, and modern web technologies from conversion-focused business websites to full-stack applications and custom e-commerce solutions.",
   location: "Open to Remote & On-site Opportunities",
-  status: "Open to Software Engineering & AI Opportunities",
+  status: "Open to Software Engineering Opportunities",
   bio: [
-    "I am a Computer Science undergraduate with a practical background in modern full-stack web development. I focus on building reliable, responsive, and maintainable software using technologies like Next.js, React, Node.js, and TypeScript.",
-    "Driven by curiosity for intelligent systems, I am actively expanding my skillset into Artificial Intelligence and Machine Learning. My goal is to bridge practical full-stack engineering with modern AI capabilities—crafting applications that are both structurally sound and intelligently powered.",
-    "I prioritize clean code, solid system design, continuous learning, and creating software that solves concrete problems.",
+    "I'm a web developer focused on building responsive, user-friendly websites and web applications that solve real business needs. My experience spans both modern JavaScript development and WordPress, allowing me to work across everything from custom React applications and REST APIs to business websites, landing pages, and production e-commerce platforms.",
+    "I work with React, Node.js, Express, MongoDB, JavaScript, WordPress, Elementor Pro, Tailwind CSS, and .NET technologies, with practical experience in responsive UI development, API integration, authentication, third-party services, SEO, performance optimization, and deployment.",
+    "I've worked on real-world client projects ranging from Figma-to-WordPress implementations and lead-generation websites to React-based applications and customizations on proprietary e-commerce platforms. I enjoy taking a requirement or design reference and turning it into a polished, functional product.",
   ],
-  email: "fahad.farooq@example.com",
+  email: "fahadfarooq2003@gmail.com",
   resumeUrl: "/resume.pdf",
   socials: {
-    github: "https://github.com/your-username",
-    linkedin: "https://linkedin.com/in/your-username",
-    email: "mailto:fahad.farooq@example.com",
+    github: "https://github.com/Fahad-Farooq",
+    linkedin: "https://linkedin.com/in/",
+    email: "mailto:fahadfarooq2003@gmail.com",
   },
 };

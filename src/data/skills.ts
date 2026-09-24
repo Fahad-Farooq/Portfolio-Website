@@ -25,7 +25,7 @@ export const skillCategories: SkillCategory[] = [
     skills: ["MongoDB", "SQL Server"],
   },
   {
-    category: "Tools & DevOps",
+    category: "Tools & Integrations",
     description:
       "Version control, media delivery, authentication, and hosting.",
     skills: [
@@ -34,17 +34,25 @@ export const skillCategories: SkillCategory[] = [
       "Cloudinary",
       "Authentication",
       "Deployment & Hosting",
+      "GoHighLevel",
+      "Hosting & Deployment",
+      "Third-Party API Integration",
     ],
   },
   {
-    category: "AI & Machine Learning (Current Direction)",
-    description: "Applied AI concepts and intelligent application patterns.",
+    category: "WordPress & Web Development",
     skills: [
-      "Python",
-      "FastAPI",
-      "LLM Integration",
-      "RAG Concepts",
-      "AI-Powered Applications",
+      "WordPress",
+      "Elementor Pro",
+      "Theme Customization",
+      "Landing Page Development",
+      "Figma-To-Web Implementation",
+      "Perfomance Optimization",
+      "On-Page SEO",
     ],
+  },
+  {
+    category: "Additional Technologies",
+    skills: [".NET", "ASP.NET", "PHP", "Blazor"],
   },
 ];
