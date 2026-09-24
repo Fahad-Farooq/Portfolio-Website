@@ -22,7 +22,7 @@ export function Experience() {
             <ScrollReveal key={item.id} delay={idx * 120}>
               <div className="relative group">
                 {/* Timeline marker with subtle hover pulse */}
-                <div className="absolute -left-[31px] sm:-left-[39px] top-1.5 w-4 h-4 rounded-full border-2 border-blue-600 bg-white dark:bg-slate-950 ring-4 ring-white dark:ring-slate-950 group-hover:scale-125 transition-transform duration-200" />
+                <div className="absolute-left-[31px] sm:absolute-left-[39px] top-1.5 w-4 h-4 rounded-full border-2 border-blue-600 bg-white dark:bg-slate-950 ring-4 ring-white dark:ring-slate-950 group-hover:scale-125 transition-transform duration-200" />
 
                 <div className="rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900/60 p-6 sm:p-7 hover:border-slate-300 dark:hover:border-slate-700 hover:-translate-y-0.5 hover:shadow-2xs transition-all duration-200">
                   <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 mb-3">
